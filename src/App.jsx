@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import easyIcon from "../assets/easyc.png";
 
+const whatsappNumber = "08131111418";
+const whatsappUrl = "https://wa.me/628131111418";
+
 const pageData = {
   nav: [
     { label: "Langkah", href: "#langkah" },
@@ -14,7 +17,7 @@ const pageData = {
     "Pastikan hanya menghubungi kanal layanan resmi."
   ],
   contacts: [
-    { label: "WhatsApp", value: "0817-882-870" },
+    { label: "WhatsApp", value: whatsappNumber },
     { label: "Email", value: "cs.pinjaman@easycash.id" },
     { label: "Jam layanan", value: "Senin-Minggu, 08.00-20.00" }
   ],
@@ -165,7 +168,6 @@ function FaqList({ items }) {
 
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const whatsappUrl = "https://wa.link/ix1s9a";
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -370,7 +372,7 @@ export default function App() {
               <strong>Email:</strong> cs.pinjaman@easycash.id
             </p>
             <p>
-              <strong>Customer service:</strong> 0817882870
+              <strong>Customer service:</strong> {whatsappNumber}
             </p>
             <p>
               <strong>Jam layanan:</strong> Senin-Minggu 08.00-20.00
