@@ -105,18 +105,6 @@ button {
   color: var(--ink);
 }
 
-.menu-toggle {
-  display: none;
-  min-height: 44px;
-  padding: 0 1rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.72);
-  color: var(--ink);
-  font-weight: 700;
-  cursor: pointer;
-}
-
 .hero {
   padding: 5rem 0 3rem;
 }
@@ -543,28 +531,14 @@ h3 {
 
 @media (max-width: 720px) {
   .nav {
-    min-height: auto;
-    padding: 1rem 0;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .menu-toggle {
-    display: inline-flex;
+    min-height: 78px;
+    padding: 0;
     align-items: center;
-    justify-content: center;
+    flex-direction: row;
   }
 
   .nav-links {
     display: none;
-    width: 100%;
-    flex-direction: column;
-    gap: 0.9rem;
-    padding-top: 0.75rem;
-  }
-
-  .nav-links.nav-open {
-    display: flex;
   }
 
   .hero {

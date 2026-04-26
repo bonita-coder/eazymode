@@ -167,8 +167,6 @@ function FaqList({ items }) {
 }
 
 export default function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -188,8 +186,6 @@ export default function App() {
     return () => observer.disconnect();
   }, []);
 
-  const closeMenu = () => setMenuOpen(false);
-
   return (
     <>
       <header className="site-header">
@@ -200,18 +196,9 @@ export default function App() {
             </span>
             <span className="brand-text">Restrukturisasi EasyCash</span>
           </a>
-          <button
-            className="menu-toggle"
-            type="button"
-            aria-label="Buka navigasi"
-            aria-expanded={menuOpen}
-            onClick={() => setMenuOpen((value) => !value)}
-          >
-            Menu
-          </button>
-          <nav className={`nav-links ${menuOpen ? "nav-open" : ""}`}>
+          <nav className="nav-links">
             {pageData.nav.map((item) => (
-              <a href={item.href} key={item.label} onClick={closeMenu}>
+              <a href={item.href} key={item.label}>
                 {item.label}
               </a>
             ))}
