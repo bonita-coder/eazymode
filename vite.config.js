@@ -1,7 +1,18 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import { resolve } from "node:path";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/"
+  base: "/",
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, "index.html"),
+        contohSurat: resolve(__dirname, "contoh-surat-restrukturisasi-easycash.html"),
+        syarat: resolve(__dirname, "syarat-restrukturisasi-easycash.html"),
+        customerService: resolve(__dirname, "cara-menghubungi-customer-service-easycash.html")
+      }
+    }
+  }
 });

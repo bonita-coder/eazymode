@@ -128,6 +128,23 @@ const pageData = {
       text: "Temukan jawaban singkat, lalu lanjut ke kanal customer service resmi."
     }
   ],
+  relatedArticles: [
+    {
+      title: "Contoh Surat Restrukturisasi EasyCash",
+      href: "/contoh-surat-restrukturisasi-easycash.html",
+      text: "Template surat pengajuan yang bisa dijadikan acuan sebelum menghubungi customer service."
+    },
+    {
+      title: "Syarat Restrukturisasi EasyCash",
+      href: "/syarat-restrukturisasi-easycash.html",
+      text: "Ringkasan dokumen, kondisi nasabah, dan hal yang biasanya diminta saat verifikasi."
+    },
+    {
+      title: "Cara Menghubungi Customer Service EasyCash",
+      href: "/cara-menghubungi-customer-service-easycash.html",
+      text: "Panduan menghubungi kanal resmi, menyiapkan data akun, dan menghindari kontak palsu."
+    }
+  ],
   steps: [
     {
       title: "Buka aplikasi atau akun EasyCash",
@@ -620,6 +637,28 @@ export default function App() {
               </div>
               <div className="faq-list">
                 <FaqList items={pageData.faqs} />
+              </div>
+            </div>
+          </section>
+
+          <section className="section">
+            <div className="container">
+              <div className="section-heading reveal">
+                <p className="eyebrow">Artikel pendukung</p>
+                <h2>Bacaan lanjutan untuk memperjelas proses</h2>
+                <p className="body-copy">
+                  Tiga artikel berikut dibuat untuk menjawab keyword turunan yang sering
+                  dicari lalu mengarahkan pembaca kembali ke panduan utama restrukturisasi EasyCash.
+                </p>
+              </div>
+              <div className="article-grid">
+                {pageData.relatedArticles.map((item) => (
+                  <a className="article-card reveal" href={item.href} key={item.title}>
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                    <span className="article-card-cta">Baca artikel</span>
+                  </a>
+                ))}
               </div>
             </div>
           </section>
