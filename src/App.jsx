@@ -5,6 +5,9 @@ import kominfoLogo from "../assets/image copy.png";
 import isoLogo from "../assets/image copy 2.png";
 import lapsLogo from "../assets/image copy 3.png";
 
+const siteUrl = "https://cararestrukturisasipinjamaneasycash.id/";
+const publishedDate = "2026-04-27";
+const modifiedDate = "2026-04-27";
 const whatsappNumber = "08131111418";
 const whatsappUrl = "https://wa.me/628131111418";
 const partnerLogos = [
@@ -61,12 +64,13 @@ const pageData = {
     { label: "Langkah", href: "#langkah" },
     { label: "Syarat", href: "#syarat" },
     { label: "Dokumen", href: "#dokumen" },
+    { label: "FAQ", href: "#faq" },
     { label: "Kontak", href: "#kontak" }
   ],
   heroPoints: [
-    "Ajukan restrukturisasi lebih awal sebelum tunggakan membesar.",
-    "Siapkan bukti kondisi keuangan dan identitas yang valid.",
-    "Pastikan hanya menghubungi kanal layanan resmi."
+    "Ajukan restrukturisasi EasyCash lebih awal sebelum tunggakan membesar.",
+    "Siapkan bukti kondisi keuangan, identitas, dan dokumen pendukung yang valid.",
+    "Pastikan hanya menghubungi kontak resmi, WhatsApp resmi, atau customer service EasyCash."
   ],
   contacts: [
     { label: "WhatsApp", value: whatsappNumber },
@@ -75,58 +79,85 @@ const pageData = {
   ],
   summary: [
     {
-      title: "Hubungi layanan resmi",
-      text: "Gunakan WhatsApp, email, atau metode resmi lain yang tersedia."
+      title: "Hubungi kontak resmi EasyCash",
+      text: "Gunakan WhatsApp resmi, email, atau customer service EasyCash untuk mulai konsultasi restrukturisasi."
     },
     {
       title: "Jelaskan kondisi keuangan",
-      text: "Sampaikan alasan restrukturisasi secara jujur dan rinci."
+      text: "Sampaikan alasan penurunan kemampuan bayar secara jujur, jelas, dan rinci."
     },
     {
-      title: "Unggah dokumen pendukung",
-      text: "Siapkan identitas, bukti penghasilan, dan surat permohonan."
+      title: "Siapkan dokumen restrukturisasi",
+      text: "Unggah identitas, bukti penghasilan, serta surat permohonan restrukturisasi EasyCash."
     },
     {
-      title: "Tunggu verifikasi",
-      text: "Tim terkait akan meninjau data dan memberi keputusan lanjutan."
+      title: "Tunggu verifikasi pengajuan",
+      text: "Tim EasyCash akan meninjau data dan memberikan keputusan atas pengajuan restrukturisasi."
     }
   ],
   requirements: [
-    "Mengalami perubahan kondisi keuangan yang signifikan.",
-    "Memiliki itikad baik untuk tetap melunasi pinjaman.",
-    "Siap mengikuti perjanjian baru secara tertulis.",
-    "Berkomitmen membayar sesuai jadwal restrukturisasi yang disepakati."
+    "Mengalami perubahan kondisi keuangan yang signifikan, seperti omzet turun, kehilangan pekerjaan, atau kebutuhan mendesak lain.",
+    "Memiliki itikad baik untuk tetap melunasi pinjaman EasyCash sesuai kemampuan terbaru.",
+    "Siap mengikuti perjanjian restrukturisasi baru secara tertulis bila pengajuan disetujui.",
+    "Berkomitmen membayar sesuai jadwal restrukturisasi EasyCash yang sudah disepakati."
+  ],
+  contactGuide: [
+    "Nomor WhatsApp dan customer service resmi membantu kamu menanyakan prosedur restrukturisasi EasyCash.",
+    "Sebelum menghubungi kontak EasyCash, siapkan nomor akun, detail tagihan, dan alasan pengajuan agar proses lebih cepat.",
+    "Hindari memberikan data sensitif ke pihak yang mengatasnamakan EasyCash di luar kanal resmi yang tertera di halaman ini."
+  ],
+  quickLinks: [
+    {
+      title: "Cara restrukturisasi EasyCash",
+      href: "#langkah",
+      text: "Lihat urutan pengajuan yang biasanya diminta dari awal sampai verifikasi."
+    },
+    {
+      title: "Syarat restrukturisasi EasyCash",
+      href: "#syarat",
+      text: "Pahami kondisi nasabah dan kriteria yang umumnya dipertimbangkan."
+    },
+    {
+      title: "Dokumen yang perlu disiapkan",
+      href: "#dokumen",
+      text: "Siapkan identitas, data akun, surat permohonan, dan bukti kesulitan keuangan."
+    },
+    {
+      title: "FAQ dan kontak resmi",
+      href: "#faq",
+      text: "Temukan jawaban singkat, lalu lanjut ke kanal customer service resmi."
+    }
   ],
   steps: [
     {
-      title: "Buka aplikasi EasyCash",
-      text: "Masuk menggunakan nomor terdaftar dan kata sandi akun Anda."
+      title: "Buka aplikasi atau akun EasyCash",
+      text: "Masuk menggunakan nomor terdaftar dan kata sandi akun EasyCash Anda."
     },
     {
-      title: "Pilih menu pembayaran",
-      text: "Buka detail pinjaman yang ingin diajukan untuk restrukturisasi."
+      title: "Pilih menu pembayaran atau detail tagihan",
+      text: "Buka detail pinjaman EasyCash yang ingin diajukan untuk restrukturisasi."
     },
     {
       title: "Tentukan opsi keringanan",
-      text: "Pilih bentuk restrukturisasi yang tersedia sesuai kebutuhan Anda."
+      text: "Pilih bentuk restrukturisasi EasyCash yang tersedia sesuai kemampuan bayar terbaru Anda."
     },
     {
       title: "Unggah formulir dan dokumen",
-      text: "Pastikan semua data valid, terbaru, dan mudah diverifikasi."
+      text: "Pastikan semua data pengajuan restrukturisasi valid, terbaru, dan mudah diverifikasi."
     },
     {
       title: "Kirim pengajuan",
-      text: "Ajukan restrukturisasi lalu pantau proses verifikasi dari tim terkait."
+      text: "Kirim pengajuan restrukturisasi EasyCash lalu pantau proses verifikasi dari tim terkait."
     },
     {
       title: "Tinjau hasil negosiasi",
-      text: "Baca ulang tenor, cicilan, denda, dan total kewajiban sebelum menyetujui."
+      text: "Baca ulang tenor, cicilan, denda, dan total kewajiban sebelum menyetujui hasil restrukturisasi."
     }
   ],
   docs: [
     {
-      title: "Data akun",
-      text: "Akun EasyCash aktif, nomor telepon terdaftar, dan screenshot halaman tagihan."
+      title: "Data akun dan tagihan",
+      text: "Akun EasyCash aktif, nomor telepon terdaftar, dan screenshot halaman tagihan atau pinjaman."
     },
     {
       title: "Dokumen identitas",
@@ -134,11 +165,11 @@ const pageData = {
     },
     {
       title: "Surat permohonan",
-      text: "Surat keterangan pengajuan restrukturisasi yang menjelaskan kondisi Anda."
+      text: "Surat pengajuan restrukturisasi EasyCash yang menjelaskan kondisi keuangan dan alasan permohonan."
     },
     {
       title: "Bukti kesulitan keuangan",
-      text: "Slip gaji terbaru, surat PHK, surat keterangan sakit, atau bukti relevan lainnya."
+      text: "Slip gaji terbaru, surat PHK, surat keterangan sakit, atau bukti relevan lain untuk mendukung pengajuan."
     }
   ],
   restructuringTypes: [
@@ -149,10 +180,16 @@ const pageData = {
     "Penghapusan denda sesuai hasil negosiasi."
   ],
   tips: [
-    "Ajukan lebih awal sebelum kredit semakin menunggak.",
-    "Jelaskan kondisi secara jujur, ringkas, dan konsisten.",
-    "Pastikan bukti pendukung lengkap dan mudah diverifikasi.",
-    "Hitung kemampuan bayar baru sebelum menyetujui skema hasil negosiasi."
+    "Ajukan restrukturisasi EasyCash lebih awal sebelum tunggakan dan denda bertambah besar.",
+    "Jelaskan kondisi secara jujur, ringkas, konsisten, dan relevan dengan pengajuan.",
+    "Pastikan bukti pendukung lengkap agar customer service EasyCash lebih mudah memverifikasi data.",
+    "Hitung kemampuan bayar baru sebelum menyetujui skema restrukturisasi hasil negosiasi."
+  ],
+  rejectionReasons: [
+    "Data akun, identitas, atau dokumen pendukung tidak lengkap atau sulit diverifikasi.",
+    "Alasan pengajuan tidak dijelaskan dengan rinci sehingga tim sulit menilai kondisi keuangan terbaru.",
+    "Pengajuan dilakukan terlalu terlambat ketika tunggakan sudah berkembang tanpa komunikasi lebih awal.",
+    "Nasabah tidak menunjukkan rencana pembayaran baru yang realistis setelah restrukturisasi disetujui."
   ],
   faqs: [
     {
@@ -169,9 +206,113 @@ const pageData = {
       question: "Kapan waktu terbaik untuk mengajukan?",
       answer:
         "Segera setelah Anda merasa kemampuan bayar menurun, sebelum tunggakan menjadi lebih berat."
+    },
+    {
+      question: "Bagaimana cara menghubungi WhatsApp resmi EasyCash untuk restrukturisasi?",
+      answer:
+        "Gunakan nomor WhatsApp resmi yang tertera di halaman ini. Siapkan data akun, detail tagihan, dan alasan pengajuan agar proses konsultasi lebih cepat."
+    },
+    {
+      question: "Apa syarat restrukturisasi EasyCash yang biasanya diminta?",
+      answer:
+        "Syarat restrukturisasi EasyCash biasanya meliputi identitas, data akun, bukti kesulitan keuangan, dan kesiapan mengikuti skema pembayaran baru jika disetujui."
+    },
+    {
+      question: "Apakah saya bisa mengajukan restrukturisasi EasyCash lewat customer service?",
+      answer:
+        "Ya, Anda bisa mulai bertanya prosedur dan menanyakan kontak pengajuan melalui customer service atau kanal resmi EasyCash yang tercantum di halaman ini."
     }
   ]
 };
+
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Cara Restrukturisasi EasyCash, Syarat, Kontak, dan Pengajuan Resmi",
+    url: siteUrl,
+    inLanguage: "id-ID",
+    description:
+      "Panduan restrukturisasi EasyCash lengkap: syarat, dokumen, langkah pengajuan, kontak resmi, WhatsApp customer service, dan tips agar pengajuan lebih mudah diproses."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Cara Restrukturisasi EasyCash, Syarat, Kontak, dan Pengajuan Resmi",
+    description:
+      "Panduan restrukturisasi EasyCash lengkap: syarat, dokumen, langkah pengajuan, kontak resmi, WhatsApp customer service, dan tips agar pengajuan lebih mudah diproses.",
+    author: {
+      "@type": "Organization",
+      name: "Restrukturisasi EasyCash"
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Restrukturisasi EasyCash",
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteUrl}apple-touch-icon.png`
+      }
+    },
+    mainEntityOfPage: siteUrl,
+    datePublished: publishedDate,
+    dateModified: modifiedDate,
+    image: `${siteUrl}og-image.svg`,
+    keywords: [
+      "restrukturisasi easycash",
+      "cara restrukturisasi easycash",
+      "syarat restrukturisasi easycash",
+      "whatsapp easycash",
+      "kontak easycash"
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: pageData.faqs.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer
+      }
+    }))
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Restrukturisasi EasyCash",
+    url: siteUrl,
+    email: "cs.pinjaman@easycash.id",
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        contactType: "customer support",
+        telephone: "+62-813-1111-418",
+        areaServed: "ID",
+        availableLanguage: ["id"]
+      }
+    ],
+    sameAs: socialLinks.map((item) => item.href)
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Beranda",
+        item: siteUrl
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Restrukturisasi EasyCash",
+        item: siteUrl
+      }
+    ]
+  }
+];
 
 function ListBlock({ items, className }) {
   return (
@@ -240,6 +381,14 @@ export default function App() {
 
   return (
     <>
+      {structuredData.map((item) => (
+        <script
+          key={item["@type"]}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(item) }}
+        />
+      ))}
+
       <header className="site-header">
         <div className="container nav">
           <a className="brand" href="#top">
@@ -259,15 +408,16 @@ export default function App() {
       </header>
 
       <main id="top">
-        <section className="hero">
-          <div className="container hero-grid">
-            <div className="hero-copy reveal">
+        <article className="page-article" aria-label="Panduan restrukturisasi EasyCash">
+          <section className="hero">
+            <div className="container hero-grid">
+              <div className="hero-copy reveal">
               <p className="eyebrow">Panduan restrukturisasi tagihan</p>
               <h1>Cara Restrukturisasi EasyCash untuk Keringanan Bunga Tagihan</h1>
               <p className="lead">
-                Pelajari alur pengajuan restrukturisasi, dokumen yang perlu disiapkan,
-                bentuk keringanan yang biasanya tersedia, serta tips agar pengajuan
-                Anda lebih mudah diproses.
+                Pelajari cara restrukturisasi EasyCash, syarat restrukturisasi
+                EasyCash, dokumen yang perlu disiapkan, kontak resmi, WhatsApp
+                customer service, dan tips agar pengajuan lebih mudah diproses.
               </p>
               <div className="cta-group">
                 <a
@@ -283,121 +433,197 @@ export default function App() {
                 </a>
               </div>
               <ListBlock items={pageData.heroPoints} className="hero-points" />
-            </div>
-
-            <aside className="hero-card reveal">
-              <p className="card-label">Kontak Resmi</p>
-              <h2>Butuh bantuan cepat?</h2>
-              <div className="contact-list">
-                {pageData.contacts.map((item) => (
-                  <div key={item.label}>
-                    <span>{item.label}</span>
-                    <strong>{item.value}</strong>
-                  </div>
-                ))}
+                <div className="hero-meta" aria-label="Informasi artikel">
+                  <span>Update 27 April 2026</span>
+                  <span>Bahasa Indonesia</span>
+                  <span>Fokus: restrukturisasi EasyCash</span>
+                </div>
               </div>
-              <p className="helper">
-                Sampaikan alasan pengajuan dengan jelas dan siapkan data pendukung
-                sebelum menghubungi customer service.
-              </p>
-            </aside>
-          </div>
-        </section>
 
-        <section className="section">
-          <div className="container">
-            <div className="section-heading reveal">
-              <p className="eyebrow">Ringkasan cepat</p>
-              <h2>Alur singkat pengajuan restrukturisasi</h2>
+              <aside className="hero-card reveal">
+                <p className="card-label">Kontak Resmi</p>
+                <h2>Butuh bantuan cepat?</h2>
+                <div className="contact-list">
+                  {pageData.contacts.map((item) => (
+                    <div key={item.label}>
+                      <span>{item.label}</span>
+                      <strong>{item.value}</strong>
+                    </div>
+                  ))}
+                </div>
+                <p className="helper">
+                  Sampaikan alasan pengajuan dengan jelas dan siapkan data pendukung
+                  sebelum menghubungi customer service.
+                </p>
+              </aside>
             </div>
-            <div className="summary-grid">
-              <CardGrid items={pageData.summary} className="summary-card reveal" numbered />
-            </div>
-          </div>
-        </section>
+          </section>
 
-        <section className="section section-soft" id="syarat">
-          <div className="container two-column">
-            <div className="reveal">
-              <div className="section-heading left">
-                <p className="eyebrow">Pemahaman dasar</p>
-                <h2>Apa itu restrukturisasi EasyCash?</h2>
+          <section className="section section-toc">
+            <div className="container">
+              <div className="section-heading reveal">
+                <p className="eyebrow">Isi panduan</p>
+                <h2>Topik utama yang paling sering dicari</h2>
+                <p className="body-copy">
+                  Halaman ini disusun untuk menjawab pencarian seputar cara restrukturisasi
+                  EasyCash, syarat pengajuan, dokumen, kontak resmi, dan FAQ dalam satu tempat.
+                </p>
               </div>
-              <p className="body-copy">
-                Restrukturisasi adalah penyesuaian kembali ketentuan pembayaran
-                pinjaman agar lebih sesuai dengan kemampuan finansial terbaru.
-                Bentuknya bisa berupa perubahan tenor, jumlah cicilan, bunga, atau
-                denda sesuai kebijakan yang disetujui.
-              </p>
-              <p className="body-copy">
-                Proses ini bukan penghapusan kewajiban, melainkan negosiasi ulang
-                supaya pembayaran tetap berjalan dengan skema yang lebih realistis.
-              </p>
-            </div>
-
-            <div className="panel reveal">
-              <h3>Standar nasabah yang biasanya dipertimbangkan</h3>
-              <ListBlock items={pageData.requirements} className="check-list" />
-            </div>
-          </div>
-        </section>
-
-        <section className="section" id="langkah">
-          <div className="container">
-            <div className="section-heading reveal">
-              <p className="eyebrow">Panduan utama</p>
-              <h2>Langkah-langkah restrukturisasi EasyCash</h2>
-            </div>
-            <div className="steps">
-              {pageData.steps.map((item, index) => (
-                <article className="step reveal" key={item.title}>
-                  <span>{String(index + 1).padStart(2, "0")}</span>
-                  <div>
+              <nav className="toc-grid" aria-label="Daftar isi artikel">
+                {pageData.quickLinks.map((item) => (
+                  <a className="toc-card reveal" href={item.href} key={item.title}>
                     <h3>{item.title}</h3>
                     <p>{item.text}</p>
-                  </div>
-                </article>
-              ))}
+                  </a>
+                ))}
+              </nav>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section className="section section-dark" id="dokumen">
-          <div className="container">
-            <div className="section-heading reveal">
-              <p className="eyebrow eyebrow-light">Persiapan dokumen</p>
-              <h2>Data yang sebaiknya disiapkan sebelum mengajukan</h2>
+          <section className="section">
+            <div className="container">
+              <div className="section-heading reveal">
+                <p className="eyebrow">Ringkasan cepat</p>
+                <h2>Alur singkat pengajuan restrukturisasi</h2>
+              </div>
+              <div className="summary-grid">
+                <CardGrid items={pageData.summary} className="summary-card reveal" numbered />
+              </div>
             </div>
-            <div className="docs-grid">
-              <CardGrid items={pageData.docs} className="doc-card reveal" />
-            </div>
-          </div>
-        </section>
+          </section>
 
-        <section className="section">
-          <div className="container two-column">
-            <div className="panel accent-panel reveal">
-              <h3>Bentuk restrukturisasi yang umum diajukan</h3>
-              <ListBlock items={pageData.restructuringTypes} className="dot-list" />
-            </div>
-            <div className="panel reveal">
-              <h3>Tips agar pengajuan lebih kuat</h3>
-              <ListBlock items={pageData.tips} className="dot-list" />
-            </div>
-          </div>
-        </section>
+          <section className="section section-soft" id="syarat">
+            <div className="container two-column">
+              <div className="reveal">
+                <div className="section-heading left">
+                  <p className="eyebrow">Pemahaman dasar</p>
+                  <h2>Apa itu restrukturisasi EasyCash?</h2>
+                </div>
+                <p className="body-copy">
+                  Restrukturisasi EasyCash adalah penyesuaian kembali ketentuan
+                  pembayaran pinjaman agar lebih sesuai dengan kemampuan finansial
+                  terbaru. Bentuknya bisa berupa perubahan tenor, jumlah cicilan,
+                  bunga, atau denda sesuai kebijakan yang disetujui.
+                </p>
+                <p className="body-copy">
+                  Proses restrukturisasi ini bukan penghapusan kewajiban, melainkan
+                  negosiasi ulang supaya pembayaran tagihan EasyCash tetap berjalan
+                  dengan skema yang lebih realistis.
+                </p>
+                <p className="body-copy">
+                  Jika Anda mencari kata kunci seperti <strong>cara restrukturisasi EasyCash</strong>,
+                  <strong> syarat restrukturisasi EasyCash</strong>, atau <strong>kontak resmi EasyCash</strong>,
+                  inti prosesnya selalu sama: hubungi kanal resmi, jelaskan kondisi keuangan,
+                  lengkapi dokumen, lalu tunggu hasil evaluasi dari pihak terkait.
+                </p>
+              </div>
 
-        <section className="section section-soft">
-          <div className="container faq-wrap">
-            <div className="section-heading reveal">
-              <p className="eyebrow">FAQ singkat</p>
-              <h2>Pertanyaan yang sering muncul</h2>
+              <div className="panel reveal">
+                <h3>Standar nasabah yang biasanya dipertimbangkan</h3>
+                <ListBlock items={pageData.requirements} className="check-list" />
+              </div>
             </div>
-            <div className="faq-list">
-              <FaqList items={pageData.faqs} />
+          </section>
+
+          <section className="section" id="langkah">
+            <div className="container">
+              <div className="section-heading reveal">
+                <p className="eyebrow">Panduan utama</p>
+                <h2>Langkah-langkah restrukturisasi EasyCash</h2>
+              </div>
+              <ol className="steps">
+                {pageData.steps.map((item, index) => (
+                  <li className="step reveal" key={item.title}>
+                    <span>{String(index + 1).padStart(2, "0")}</span>
+                    <div>
+                      <h3>{item.title}</h3>
+                      <p>{item.text}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
             </div>
-          </div>
-        </section>
+          </section>
+
+          <section className="section section-soft">
+            <div className="container two-column">
+              <div className="panel reveal">
+                <div className="section-heading left">
+                  <p className="eyebrow">Kontak resmi</p>
+                  <h2>Cara menghubungi EasyCash untuk restrukturisasi</h2>
+                </div>
+                <p className="body-copy">
+                  Jika Anda mencari kontak EasyCash, WhatsApp EasyCash, atau customer
+                  service EasyCash untuk restrukturisasi, gunakan hanya kanal resmi
+                  yang tersedia di halaman ini. Hindari mengirim data penting ke pihak
+                  lain di luar kontak resmi.
+                </p>
+                <ListBlock items={pageData.contactGuide} className="check-list" />
+              </div>
+              <div className="panel accent-panel reveal">
+                <h3>Sebelum menghubungi customer service EasyCash</h3>
+                <ListBlock items={pageData.tips} className="dot-list" />
+              </div>
+            </div>
+          </section>
+
+          <section className="section section-dark" id="dokumen">
+            <div className="container">
+              <div className="section-heading reveal">
+                <p className="eyebrow eyebrow-light">Persiapan dokumen</p>
+                <h2>Data yang sebaiknya disiapkan sebelum mengajukan</h2>
+              </div>
+              <div className="docs-grid">
+                <CardGrid items={pageData.docs} className="doc-card reveal" />
+              </div>
+            </div>
+          </section>
+
+          <section className="section">
+            <div className="container">
+              <div className="panel accent-panel reveal">
+                <h3>Bentuk restrukturisasi EasyCash yang umum diajukan</h3>
+                <ListBlock items={pageData.restructuringTypes} className="dot-list" />
+              </div>
+            </div>
+          </section>
+
+          <section className="section">
+            <div className="container two-column">
+              <div className="panel reveal">
+                <div className="section-heading left">
+                  <p className="eyebrow">Strategi pengajuan</p>
+                  <h2>Tips agar peluang persetujuan lebih baik</h2>
+                </div>
+                <p className="body-copy">
+                  Tidak ada jaminan pengajuan restrukturisasi EasyCash pasti disetujui,
+                  tetapi peluang Anda biasanya lebih baik jika pengajuan dilakukan lebih awal,
+                  data pendukung lengkap, dan nominal cicilan baru masih masuk akal.
+                </p>
+                <ListBlock items={pageData.tips} className="dot-list" />
+              </div>
+              <div className="panel reveal">
+                <div className="section-heading left">
+                  <p className="eyebrow">Hal yang perlu dihindari</p>
+                  <h2>Penyebab pengajuan sering tertahan atau ditolak</h2>
+                </div>
+                <ListBlock items={pageData.rejectionReasons} className="check-list" />
+              </div>
+            </div>
+          </section>
+
+          <section className="section section-soft" id="faq">
+            <div className="container faq-wrap">
+              <div className="section-heading reveal">
+                <p className="eyebrow">FAQ singkat</p>
+                <h2>Pertanyaan yang sering muncul</h2>
+              </div>
+              <div className="faq-list">
+                <FaqList items={pageData.faqs} />
+              </div>
+            </div>
+          </section>
+        </article>
       </main>
 
       <footer className="site-footer" id="kontak">
@@ -458,7 +684,13 @@ export default function App() {
               <div className="logo-strip-grid">
                 {partnerLogos.map((logo) => (
                   <div className="logo-tile" key={logo.alt}>
-                    <img className="partner-logo" src={logo.src} alt={logo.alt} />
+                    <img
+                      className="partner-logo"
+                      src={logo.src}
+                      alt={logo.alt}
+                      loading="lazy"
+                      decoding="async"
+                    />
                   </div>
                 ))}
               </div>
