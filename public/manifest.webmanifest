@@ -1,0 +1,21 @@
+{
+  "name": "Restrukturisasi EasyCash",
+  "short_name": "EasyCash",
+  "description": "Panduan restrukturisasi EasyCash lengkap: syarat, kontak resmi, dan langkah pengajuan.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef7f1",
+  "theme_color": "#0dcf66",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
